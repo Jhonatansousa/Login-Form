@@ -235,6 +235,10 @@ button:active {
   .side {
     display: none;
   }
+
+  .logo {
+    top: 15rem;
+  }
 }
 
 @media (max-width: 45rem) {
@@ -246,25 +250,23 @@ button:active {
     display: block;
   }
 
-  .logo {
-    top: 17rem;
-    left: 7.5rem;
-  }
-
   .main-login {
     background-color: var(--background);
-    width: auto;
+    width: fit-content;
+    margin: auto;
     position: center;
+  }
+
+  .logo {
+    top: 0;
+    left: 0;
   }
 }
 
 @media (max-width: 23rem) {
-  main {
-    width: fit-content;
-    padding-left: 1rem;
-  }
 
-  .logo {
-    left: 8rem;
+  .main-login {
+    width: fit-content;
+    margin: auto;
   }
 }
