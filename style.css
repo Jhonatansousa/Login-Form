@@ -258,7 +258,7 @@ button:active {
   }
 
   .logo {
-    top: 0;
+    top: -2rem;
     left: 0;
   }
 }
