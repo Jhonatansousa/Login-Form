@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--background);
+  display: flex;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.side-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: -4rem;
+}
+
+
+.logo {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+h1 {
+  color: var(--text-title);
+  font-size: 2.4rem;
+}
+
+.do-your-login {
+  margin-bottom: -6rem;
+}
+
+.do-your-login div {
+  display: flex;
+  gap: 1rem;
+}
+
+.do-your-login p {
+  color: var(--text-base);
+}
+
+.main-login {
+  background-color: var(--form-background);
+  display: grid;
+  place-items: center;
+  width: 57.2rem;
+  height: 51.2rem;
+  margin: 19.4rem 7.4rem;
+}
+
+/* INPUT'S */
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-base);
+  justify-content: center;
+}
+
+.email,
+.password {
+  background-color: var(--form-background);
+  border-style: none;
+  border: 1px solid #868686;
+  border-radius: 4px;
+  width: 33.5rem;
+  height: 4.4rem;
+  color: var(--primary-color);
+  padding-left: 4rem;
+  margin-top: .6rem;
+}
+
+.email:focus-within,
+.password:focus-within {
+  border-style: none;
+  border: 1px solid #FFC632;
+  box-shadow: 0px 0px 0px 2px #FFDE88;
+  border-radius: 4px;
+  outline: var(--primary-color);
+}
+
+.email {
+  background-image: url(assets/mail.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1.2rem;
+}
+
+.email:focus-within {
+  background-image: url(assets/mail-focus.svg);
+}
+
+label:nth-of-type(2) {
+  margin-top: 2rem;
+}
+
+.password {
+  background-image: url(assets/lock.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1.2rem;
+}
+
+.password::-ms-reveal {
+  display: none;
+}
+
+.password:focus-within {
+  background-image: url(assets/lock-focus.svg);
+}
+
+.show-password {
+  position: relative;
+}
+
+#show {
+  position: absolute;
+  right: 1.2rem;
+  top: 1.8rem;
+}
+
+/* REMEMBER-ME */
+.container-check {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.container-check div {
+  gap: .5rem;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  display: none;
+}
+
+
+.checkbox+.remember:before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+  border: 1px solid #868686;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: .5rem;
+  transform: translateY(-10%);
+}
+
+.checkbox:checked+.remember::before {
+  background-color: var(--primary-color);
+  background-image: url(assets/check.svg);
+}
+
+.container-check a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.container-check a:hover {
+  text-decoration: underline;
+}
+
+/* BUTTON */
+button {
+  padding: 1.2rem 2.4rem;
+  color: #473404;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+button:active {
+  background-color: #473404;
+  color: var(--primary-color);
+}
+
+.register {
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  margin-top: 1.4rem;
+}
+
+.register span {
+  font-weight: 600;
+}
+
+.register:hover {
+  text-decoration: underline;
+}
+
+
+
+/* resposivity */
+
+@media (max-width: 59rem) {
+  main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .side {
+    display: none;
+  }
+}
+
+@media (max-width: 45rem) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    display: block;
+  }
+
+  .logo {
+    top: 17rem;
+    left: 7.5rem;
+  }
+
+  .main-login {
+    background-color: var(--background);
+    width: auto;
+    position: center;
+  }
+}
+
+@media (max-width: 23rem) {
+  main {
+    width: fit-content;
+    padding-left: 1rem;
+  }
+
+  .logo {
+    left: 8rem;
+  }
+}

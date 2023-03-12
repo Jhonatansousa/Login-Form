@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fonts google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <img class="logo" src="assets/logo.svg" alt="camp.io logomark">
+    <!-- do your login -->
+    <div class="main-login">
+      <div class="do-your-login">
+        <div>
+          <img src="assets/log-in.svg" alt="arrow image">
+          <h1>Faça seu login</h1>
+        </div>
+        <p>Entre com suas informações de cadastro.</p>
+      </div>
+
+      <!-- e-mail input -->
+      <form action="" method="post">
+        <label for="email">E-mail</label>
+        <input class="email" type="email" name="" id="email" placeholder="Digite seu e-mail" required
+          autocomplete="email">
+
+        <!-- password input -->
+        <label for="password">Senha</label>
+        <div class="show-password">
+          <input class="password" type="password" id="password" placeholder="Digite sua senha" required>
+          <img id="show" src="assets/eye.svg" alt="mostrar a senha">
+        </div>
+
+        <!-- check input -->
+        <div class="container-check">
+          <div>
+            <input id="checkbox" class="checkbox" type="checkbox">
+            <label class="remember" for="checkbox">Lembre-me</label>
+          </div>
+          <a href="#">Esqueci minha senha</a>
+        </div>
+
+        <button type="submit">Entrar</button>
+
+        <a class="register" href="#">Não tem uma conta? <span>Registre-se</span></a>
+      </form>
+    </div>
+  </main>
+  <div class="side">
+    <img class="side-image" src="assets/side-image-2x.jpg" alt="">
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
