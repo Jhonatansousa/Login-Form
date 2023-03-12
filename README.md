@@ -1,13 +1,18 @@
 <h1 align="center"> Login Form </h1>
+<div style="flex" align="center">
+  <img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg">
 https://jhonatansousa.github.io/Login-Form/
-
+</div>
+<br>
 <div style="flex">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-
+  
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+  
 <a target="_blank" href="https://www.linkedin.com/in/jhonatan-s-da-silva-a1a77b268/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div>
 
