@@ -18,7 +18,7 @@
   <main>
 
     <img class="logo" src="assets/logo.svg" alt="camp.io logomark">
-    <!-- do your login -->
+    <!-- Title -->
     <div class="main-login">
       <div class="do-your-login">
         <div>
@@ -29,22 +29,22 @@
       </div>
 
       <!-- e-mail input -->
-      <form action="" method="post">
+      <form action="" method="post" name="formLogin">
         <label for="email">E-mail</label>
-        <input class="email" type="email" name="" id="email" placeholder="Digite seu e-mail" required
+        <input class="email" type="email" name="email" id="email" placeholder="Digite seu e-mail" required
           autocomplete="email">
 
         <!-- password input -->
         <label for="password">Senha</label>
         <div class="show-password">
-          <input class="password" type="password" id="password" placeholder="Digite sua senha" required>
+          <input class="password" type="password" name="password" id="password" placeholder="Digite sua senha" required>
           <img id="show" src="assets/eye.svg" alt="mostrar a senha">
         </div>
 
         <!-- check input -->
         <div class="container-check">
           <div>
-            <input id="checkbox" class="checkbox" type="checkbox">
+            <input id="checkbox" class="checkbox" name="checkbox" type="checkbox">
             <label class="remember" for="checkbox">Lembre-me</label>
           </div>
           <a href="#">Esqueci minha senha</a>
