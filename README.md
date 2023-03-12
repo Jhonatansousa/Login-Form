@@ -19,7 +19,7 @@ https://jhonatansousa.github.io/Login-Form/
 
 <div>
 <h2>Descrição do Projeto</h2>
-<p>Este projeto é um formulário de login responsivo, criado com HTML, CSS e JavaScript. O formulário apresenta um design moderno e minimalista, com campos para inserção de nome de usuário e senha, além de um botão para enviar as informações e efetuar o login.</p>
+<p>Este projeto é um formulário de login responsivo,foi desenvolvido a partir de um protótipo no Figma, criado com HTML, CSS e JavaScript. O formulário apresenta um design moderno e minimalista, com campos para inserção de nome de usuário e senha, além de um botão para enviar as informações e efetuar o login.</p>
 </div>
 <h2>Funcionalidades</h2>
 <ul>
@@ -33,4 +33,6 @@ https://jhonatansousa.github.io/Login-Form/
 ![Login Form mid size](https://user-images.githubusercontent.com/126415306/224522291-2afc1a9d-ad00-4992-b786-78bf406b611f.png)
 
 ![Login Form mobile](https://user-images.githubusercontent.com/126415306/224522290-fa439b33-82cc-43e8-9c9c-1521f707e1fc.png)
+  
+  <img src="http://ForTheBadge.com/images/badges/built-with-love.svg">
 
