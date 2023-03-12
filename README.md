@@ -28,11 +28,11 @@ https://jhonatansousa.github.io/Login-Form/
 <li>Estilização do input checkbox: o input checkbox foi estilizado para se adequar ao design geral do formulário, utilizando CSS personalizado.</li>
 <li>Pseudo-elementos ":focus, :hover": foram utilizados para criar efeitos de estilo visual quando os campos do formulário estão em foco ou quando o cursor do mouse passa sobre eles.</li>
 
-![127 0 0 1_5500_index html (1)](https://user-images.githubusercontent.com/126415306/224522414-70d502c4-4bae-4cd8-b092-a2a14f47a121.png)
 
-![Login Form mid size](https://user-images.githubusercontent.com/126415306/224522291-2afc1a9d-ad00-4992-b786-78bf406b611f.png)
+<img width="45%" src="https://user-images.githubusercontent.com/126415306/224522414-70d502c4-4bae-4cd8-b092-a2a14f47a121.png" alt="layout full-size">
+<img width="30%" src="https://user-images.githubusercontent.com/126415306/224522291-2afc1a9d-ad00-4992-b786-78bf406b611f.png" alt="layoyt mid-size">
+<img width="15%" src="https://user-images.githubusercontent.com/126415306/224522290-fa439b33-82cc-43e8-9c9c-1521f707e1fc.png" alt=""layout mobile>
 
-![Login Form mobile](https://user-images.githubusercontent.com/126415306/224522290-fa439b33-82cc-43e8-9c9c-1521f707e1fc.png)
   
-  <img src="http://ForTheBadge.com/images/badges/built-with-love.svg">
+<img src="http://ForTheBadge.com/images/badges/built-with-love.svg">
 
